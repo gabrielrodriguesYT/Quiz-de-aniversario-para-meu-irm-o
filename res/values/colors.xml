@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3F51B5</color>
+    <color name="colorPrimaryDark">#FF303F9F</color>
+    <color name="colorAccent">#ff9eb3e2</color>
+    <color name="fundo">#ff2655a2</color>
+    <color name="pergunta">#fffaffc0</color>
+    <color name="selecionado">#ffe4b484</color>
+    <color name="vitoria">#ff00d000</color>
+    <color name="branco">#ffffffff</color>
+    <color name="branco2">#ffffffea</color>
+    <color name="erro">#fffb1b1a</color>
+    <color name="preto">#ff000000</color>
+</resources>

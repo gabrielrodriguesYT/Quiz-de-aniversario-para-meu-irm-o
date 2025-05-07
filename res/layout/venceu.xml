@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fundo_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/Fundo" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="375dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/fim" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/colorAccent"
+ />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Menu"
+        android:background="@drawable/circulo"
+        android:onClick="tocou"
+ />
+
+</FrameLayout>

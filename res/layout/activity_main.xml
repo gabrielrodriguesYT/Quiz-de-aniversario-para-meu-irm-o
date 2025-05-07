@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/fundo">
+
+    <ImageView
+        android:id="@+id/som"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/som"
+        android:onClick="onClickButton"
+/>
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+      android:background="@drawable/dezenove"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+/>
+
+
+    <TextView
+        android:id="@+id/pergunta"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-160dp"
+        android:text="Hello World!"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/circulo"
+ /> 
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-305dp"
+        android:layout_marginLeft="120dp"
+        android:text="Pontos:0"
+        android:textSize="20sp"
+ /> 
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:text="A_"
+        android:layout_marginLeft="-130dp"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:textColor="@color/preto"
+ /> 
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="B_"
+        android:layout_marginLeft="-130dp"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:textColor="@color/preto"
+ /> 
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="C_"
+        android:layout_marginLeft="-130dp"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:textColor="@color/preto"
+ /> 
+
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="D_"
+        android:layout_marginLeft="-130dp"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:textColor="@color/preto"
+ /> 
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:text="1"
+        android:background="@color/colorAccent"
+        android:onClick="onClickButton"
+ />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="2"
+        android:background="@color/colorAccent"
+        android:onClick="onClickButton"
+/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Hello World!"
+        android:background="@color/colorAccent"
+        android:onClick="onClickButton"
+/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="Hello World!"
+        android:background="@color/colorAccent"
+        android:onClick="onClickButton"
+/>
+
+    <Button
+        android:id="@+id/confirmar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:text="confirmar"
+        android:visibility="gone"
+        android:onClick="onClickButton"
+        android:background="@drawable/circulo"
+ /> 
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:text="voltar"
+        android:visibility="gone"
+        android:onClick="onClickButton"
+        android:background="@drawable/circulo"
+ /> 
+
+   <Button
+        android:id="@+id/avancar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:text="avançar"
+        android:visibility="gone"
+        android:onClick="onClickButton"
+        android:background="@drawable/circulo"
+ /> 
+
+</FrameLayout>
